@@ -119,7 +119,8 @@ nav > .utilities button {
 }
 .about_title {
   text-align: center;
-  margin: 80px;
+  font-size: 2.5em;
+  margin: 80px 0px 20px 0px;
 }
 .about_container .about_image {
   /* padding: 0px 40px 0px 40px; */
@@ -143,16 +144,18 @@ nav > .utilities button {
 .imagesContainer {
   display: flex;
   margin: 50px 5vw;
-  gap: 50px;
-  text-align: center;
+  gap: 7vw;
+  align-items: center;
+  justify-content: center;
 }
-.imagesContainer .images div {
+.imagesContainer .images {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .menu_container img {
-  height: 30vh;
-  width: 20vw;
+  height: 15vw;
+  width: 15vw;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 20px;
@@ -185,7 +188,7 @@ nav > .utilities button {
 
 /* pricing container css */
 .pricing_container {
-  height: 150vh;
+  /* height: 150vh; */
 }
 
 .pricing_container .uppertext {
@@ -200,17 +203,17 @@ nav > .utilities button {
   display: flex;
   margin: 50px;
   gap: 30px;
-  height: 60vh;
+  align-items: flex-start;
 }
 .priceTable .left {
   background: #fff2d5;
   width: 20vw;
-  height: 80vh;
   border-radius: 10px;
+  padding: 15px 0px;
 }
 .priceTable .left a {
   text-decoration: none;
-  padding: 15px 50px;
+  padding: 10px 50px;
   color: black;
   background: white;
   border-radius: 50px;
@@ -219,9 +222,8 @@ nav > .utilities button {
   background-color: #feb830;
 }
 .priceTable .left .leftContents {
-  padding: 20px 20px;
+  padding: 10px 20px;
   border-radius: 40px;
-  margin-top: 20px;
 }
 .priceTable .left .leftContents img {
   height: 20px;
@@ -231,22 +233,27 @@ nav > .utilities button {
 .priceTable .left .leftContents a {
   display: flex;
 }
+.right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-around;
+}
 
 .priceTable .right .rightContents img {
-  height: 350px;
-  width: 350px;
+  height: 15vw;
+  width: 20vw;
   border-radius: 10px;
+  object-fit: cover;
 }
-.priceTable .right .rightContents {
+/* .priceTable .right .rightContents {
   float: left;
   width: 30.33%;
   display: flex;
   padding: 4px;
-}
+} */
 /* last part css */
-.lastContainer {
-  margin: 40px 5vw;
-}
 
 .lastimg img {
   height: 500px;
@@ -256,7 +263,7 @@ nav > .utilities button {
 
 .lastContainer {
   display: flex;
-  margin: 30px;
+  margin: 100px 5vw;
 }
 
 .lastContainer .lasttext p {
