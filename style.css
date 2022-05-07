@@ -120,7 +120,7 @@ nav > .utilities button {
 .about_title {
   text-align: center;
   font-size: 2.5em;
-  margin: 80px 0px 20px 0px;
+  margin: 80px 0 20px 0;
 }
 .about_container .about_image {
   /* padding: 0px 40px 0px 40px; */
@@ -187,9 +187,6 @@ nav > .utilities button {
 }
 
 /* pricing container css */
-.pricing_container {
-  /* height: 150vh; */
-}
 
 .pricing_container .uppertext {
   text-align: center;
