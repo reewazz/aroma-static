@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sasta Cafeko mahango website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBIVFRgVFBUYGBIZGBgZGBUcGhUaGhocGBgaHBgaHBkcITwlHB4rIRkYJjgmKy8xNTU1HCQ7QDszPy80NTEBDAwMEA8QHxISHzQrJCs2NDQ0NDE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQxNDQ0NP/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAAAQYFBwgEAwL/xABMEAACAQMBBQUEBQYLBQkAAAABAgMABBESBQYhMUEHEyJRYTJxgZEUQoKhsSNSYnKSohUXMzVTY3STsrPBJDTC0vAWNkNEVHODo9H/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQIDBP/EACARAQEAAgIDAQEBAQAAAAAAAAABAhESIQMxQVFhMhP/2gAMAwEAAhEDEQA/ANzUpSgUpSgUpSgUpSgilfiSRVBLEBQMkkgADzJNUvbXabs6DKo5uJB0iGpf7w+H5E0WS30u9K0ftTtbvXyII44V8zmR/mcKP2TVTvt6tozfyl3MfRXMa/spgfdWeUbnjrpiWZV4syqPUgfjXhk29Zr7V1APfLGPxNcuP4jqbxN1Y8SfialU4EgcBjJxwGeVOS/8v66gTeGyPs3VuT6TRH/ir3Q3Ubew6t+qwP4GuTyoqAg54GfOpyX/AJf11vSuXrLeK+hIMV1OuOmtiv7DEr91WjZfartGPAl7udeupdDn7ScP3avKM3x1vmla+2N2rWMuFnD27nqw1p+2vED1IFXm0uo5UDxOro3EMrBlPuI4GtMWWe3ppSlEKUpQKUpQKUpQKUpQKUpQKUpQKUrHbY2tBaxNNcOEjXqeZPQKBxZj5Cg95rX29Xaha25MdsBcTDIJB/JIfVh7R9F+YrX++XaBcXuqNMw2vLQD4nH9Yw6fojh55qmVm5fjrj4/1mNvby3l6c3EpZM5ES+GNfLCjgfecn1rD0pWXWTRSlKilZ3adn3Nla5HiuWlnY9dKERxD3YLt9usFWwd9rLXsvZdwnFY4VibHQvGvE/ajYe81Yzle419ShNZDbWzjbuiN7Rhhkb3yIGI+GcfCisfSlKile7ZG17m1bXbytG3XSfC36yHwt8RXhpVRuPdbtXjfEd8ojbkJ1yYz+svNPfxHurZsEyOoZGDIQCrKQQQeRBHAiuT6sW6m+F1YP8Ak21wk5aBidJ8yv5jeo+INamTnl4/x0nU1gd2N57e+j1wt4hjXEcB0J6MPLngjgcVna042aTSlKBSlKBSlKBSlKBSlY/bO1YrWF55m0xoMnzJ5BVHVicAD1oPLvJvBBZQmaZvREGNUjdFUf68gOJrnzebeO4vpe8mbwjOiME6EU9B5nzY8T6DgG9O8U19OZpTheIjjzlUTyHmTzJ6n0AAw1Ytd8MNFKUrLoUpSgUpSgye29m9x9H/AK21hnJ8zLrP3YA+FbA7PpEvtnXOzXI1oGaInoHOpT9mT7iKwe01W82TBOv8tYkW8o/qmwI29w8H79YHdDbBtLyGfOEDBZPIxv4Xz7h4veorXqud3Z/WHkjYFkYFWBKsp5hgcMD6g5q7b/RLNb2N+mNMkCwSY+rJEDwPr/KD7Iry9qGzVg2jLp9mULMB5F8h/m6MfjX32PKH2NfRueEU0EkeejSOqkD34b9o0W3eqpdKUrLZSlKBSlKD17K2nNbSrNAxWReRHIjqrD6ynqK6B3K3vh2hHwwlwgHeRZ5fpIfrIfPpyPrznXs2XtGW2lSaFtEiHIPQjqrDqp5EVqXTGeG3VNTVd3P3mjv4BKnhkXwyx5yUbH3qeYPUeoIFhrbz2aTSlKBSlKBSlKD85rn7tJ3sN7P3cbf7JESExykfk0nqOYX0yetbB7Wt5TbW4t42xNcAgkc0iHBz6FvZHvY9K0XWbfjr48fpSlKw7FKUoFKUoFKy27+7tzes626BigDMSyqAGJC8T1ODw9DWd/iw2t/RJ/epV0zcpHk3UvljtdpBz4Ht1RR5yOzKgA8+LH3A1VZPZPuP4Vdv4sdrcu6jxzx3qf8AXU/Oi9mW1gQREmQQR+VTpV1U3j+vH2ibQE16cHPdRRQk+bIuX+Tuy+9TWDTaDiBrdeCPIJH82KLpQH0GWPvPpVobsy2uSSY0JJJJMqkkniST1NR/Fhtb+iT+9SmqS4ya2plKuf8AFhtb+iT+9SqhNEyMyOCrozKynmGUkMD7iCKmmpZfT50pSopSlKBSlKDObo7xyWNysyZZD4ZUH10zx+0OY9fea6Rs7pJUWSNgyOoZWHIgjINcpVtbsa3kwzWMjcDqeAnoeciD38XH2q3jXLyY/W4KUpWnEpSlBFfiVwoJYgKAST0AAySa/dUjtY2x3Fi6KcPORCP1WBMh/YBH2hRZN3TTO9e22vbqS4OdDNpjB+rGvBB6ZHiPqxrD0pXN6ZNFKUqKUpSgUpSg3h2K2YSyeT60kzcf0UVVA+es/GsNtPfyK4eRBcz2Lo7okqqJoXVXIVmTGpWIHThx5ms72M3AawKDmk8in7QVwf3vurSF3EyO6N7Su6t71Yg/eK3bqOUxlyu16m2rtYfyW17aVemmeBGx6pKoIrHzb07ZT2r5fhLZt9ykmqhSs7b4rI2/O1f/AFknyj/5K+2z97tqyypF9OZC7qoZtAVSxwNRCEgZwPjVVqG5GmzjG+txNoXYuLuyvJjNLAUdJCANSuOgA5eyeuNRFfLb3ZhbXNxJOZ5EaRtRVRHpB0gHGRniRn4mvJuXdNPtWWXmfoFsJD+m6RP/APtYPtb2JePeLPHFJJE0aKGjV30spbIIXiOYOa18cZ/r8YXfTcCawXvlfvrbIUtp0shY4XUucEEkDUOp5CqZW9Sk0ewZFvie9FtKCHOWGdQhVifr8UHnnFaKqZR1wyt9lKUrLZSlKBX2srt4ZEljOJEdXQ+qnIz6dCPImvjUUR1NsTaSXMEc6ezIgbHkTzU+oOQfdWQrVXYjtctHNaMeKMJU/Vfg4HuYA/braorpHms1dJpUVNVEVo7to2kXu44AfDDHkj9KQ5P7qp863ia5j3wvO+vrmToZnUfqxnQv3IKzfTp452w1KUrDuUpSgUpSgUpSg2B2QbdEF01u5wlwAFJ5CRM6R9oFh7wteXtW2A1veNMq/kbgl1PQP/4in1J8f2j5VSlYgggkEEEEEggjiCCORrb+7W9FrtSD6DtHAnIAVzhe8I9l0bkko8uvHHAlRqdzTnlLLyjWGw9iXF5KIrddT82J4Ii/nM31R956ZrN/9gLw3rWa6WKaWecZ7tFcZBbqGx9Tmfdxree7+wbeziEVuulebE8WdurO31j+HIYHCvZa2iRghBjUxZjzLE82ZjxJ9/oOQq6YvkvxSpuy2xNqIF1LOOIueblsfWHIp+j06HPGtO7xbAuLKQxTpjmUcZKOo6q34jmK6hrG7aS17vVdCPukIfVJp0qynKtx65pYmOdimbi2Q2dYS3t3lZJB3smr2gijESY/OOeXmwHSqts3tdu0UiaCOU5JDBjGQCchThSDjlnA5fGsZ2hb7NfOIodS2inIB4GRhyZh0A6L8Txxil1LfxuYb7yWfe3fa6v8I4WOAHIhXOCRyLsfaI6cAPTPGqxSlTbpJJ6KUpUUpSlAqKmooLP2cbS7jaEDZwjsYX90nBf39FdH1yZHKykMvtIQ6n1U5X7wK6ss7gSRpIvsuqsPcygj8a3HHyTvb70qaVpyfGeQKrMeSgn5DNcn6y3iPFm8RPqeJ+811FvHJptLlvzYJj8o2NcuKOFZydfF9TSlRWHZNKUoFKUoFKUoFCKUoLXsLtB2jagIJRLGOSSgtgeQfIcfEkDyq2QdsrY8dkM+azHHyKcPnWqKVrdYuGNbNve2G5YEQ20aHozO0mPsgL+NUXbW37u8bVcTM+DlV4BF/VVfCD64z61jKVN1ZjJ6KUpUaKUpQKUpQKUpQQaYqSKAUH5rpXs/uNezrVvKFE/Y8H/DXNhFdB9k7Z2XBnoZh8p5K3i5eT0udKUrTixW8yarO5Xzt5h842rl1eVdYXcWtHX85WX5gj/WuTkHAZ5441jJ18X1NDU1FZdk0pSgyVhsd3je4d1itkYI0rBjqdhkRoi8XfHHHAAcSRWW3f3WhvWaO3ux36qWEckLIGA5lXV25ZHTPHlWY2LvPs0bLNndRM0qd6UGjUGdy5V1f6rDXjJxyrF9lrH+E7fHH+UDY6AxPzxy44rXTnbe1e2ps+W3leGZNMiHDLz6ZBBHMEEEH1rK7G3Pu7psQGB8AFiJ4zpB5alBLD5Vme2EAbSPrDET83H+gr7di5P09/L6NJ/mRU13peV47Y6Tcd0uPo9xcRxZdI42KSOZXdEYhEUZKqXClzgZ+OMXvVu1NYTCKUqwZdSOudLDODwPEEHmPdVi7QttSxbYaaMjXbiJUyMrju9RBGeR71/nXii2hNtjaFslzpCFtOhAVUIoLuBkk5YKQTnyp16SXL3WPst07h7c3b4jg4LGWyWmZjpRI166m4aiQOvEV+l3aT6QbNrlUuwwQI6MImcgHQJgxIOTgEoATy6VeO13aXcz2MajEcJE+gcB4HQKAPRVcD31Xe1mw7u9FxGfBcIkqMPzkAUkH4Rt9qmkmVqp7S2ZPbymCZCsqkDSccc+yVPJlPQis/sbs/2jcMAI1SPIDSO6EL5+FWLE46YHvFXvtOsUudmw3oX8oixPnqUmChlPoCyn4Hzry9hXs3Q6Zh/CSmuzleO1GXdyKNyl1exW7BiApSSSTGfCzqvCMMMMAzZwc4rIbd7O7uBY3iZbiKQqA6+HGoZVmDHAXHHXnA64qu7wMTdXJJyTcT5J/wDcett38jDdxTnibWFfgWRSPkcUki22aUPYu59vcuIY9pQ/SCDiNYpWU6QSQsjaQ2ACeA5ZNYPeDYc9nM0E4GsAMrA5V1OcMp8uBGDyINfbc9yt/aEcD9JiHwZwp+4mrt25IO+tj1McoJ9AyY/E/OnWjdmWlEt9jMYRcTOIbdmKoxVneRl9oIg5gdWJAHLNZjYW5y3yv9EuleVAC0MkbRMQc4IYOwIyMenDOMispfbz7Nm2THbvETeRRKkfg9hhpBdZOQU6QSOvIg1+exgn6exHEfRpASOXtxkAn4fdTULbq1Rbm3eNnjdSroxV1PNWU4Ir51Ze0YY2ndfrofnFGTVaNSty7hSoxQioIVwa6F7Jv5rg9WnP/wB8lc7MONdK9nUGjZtqPOIP+2S//FW8Y5Z3pZ6UpWnJBrl7eezMN5cxkY0zyYH6LMWT91lrqGtC9sezu7vhIB4Z41bPm6eFvuEfzrN9OnjvahVOKmlYd0A1NAKUF93T3ahWym2ndJ3qIrmGAkhGKHTqfHMa+GOXAk54Ybibeup9pWys5WLMn5BAI4lAikIAjXCnHDicn1r7bmb8WsVo1jexs0BDhWUasq5LMjDORxY4I+7Ga8FnvHs+yuEksIZXAb8pJMy6tB9pIlHBSfzm48MciTWnKy3e4+3bH/OP/wAEX+KSvr2Mf7+/9mk/zIq+G+m8GzbydblVuWkCKhiYJGh0lipZwS31uIXnjmK+PZ7ti0sZzcTTMdUTJ3axOSpZkbix4EDR086fV74aebtN/nS5/Wj/AMiOvPuDfrBtC2djhNZRieQ7xWQH0GWFfXfa9tLm5muoZ2JcoRE0TqRpREPjzj6pNVkip9WTeOmzu3CAie2fo0Trn1VgfwesftGUXWwY5GOZbKURE9dDYVR7tLx/sV5DvbHd2i2m0BJqQgw3aAO6kAgd4hILDHAkHJ94zXx2Jty0t0Nu5kmt2mWeQrGE190AY4lVm4AuAzMei4A45qs6skn42Dv9KLfYqQOfyjR28IHUlAhb5BGrGdhfK798P4SVQd7d557+XvJBpjUERxA5VQefH6zHAyfQVaez3eXZ+zhL3kzuZdBwsLjToDZySePtfdV32XGzHSj7e/3m5/tE/wDmtW29o/8Adtf7NB/mR1q7aq2r3Dulwe7kkkckwyAoHYsoIz4jxxwq73O9uzn2WNniZw4iRO87l9OUZWzjOcHTSGXxR90v9+tP7TB/mLV77c/5W1/Um/xR1SN33tYbmOZ7ghIZkcAROTIqsrZHHw8QRg1ZO0TeKx2g0TRTMjRK40tC/jLFSMMDw9nHHzqfFv8AqVOz934bPZ38JTxrNM+juIXGY0EjAIzL9c48WDw5Dnxr2dlm2rm42gRLKzILeQiMYSNcPGBpjXCrzxnGeNRsXfewksBY7RR9KoqBkXUGVMaCMcVdcDpjh8Kx2wt6rGwuVa0hla3YFZpZChmZT7IRRhVUHBI5twzjAollu5pi+0j+c7r9aP8Aykqs1bd8Nq7NuJ5LiETvJIB4GCpGrhAgYkEu2MA6RgZHPHCqlUrePopSlRp+WUnkMseAHmTwArqvZVqIYYohyjjRB7kUL/pXOm42zvpF/bR4yokEj/qx+M59CVA+NdL1uOPkvek0qKVpyK192xbI72zE6jL27Bj56Hwr/I6G+ya2DXwvLZJUeNxlHVkZfNWBBHyNFl1duTy4r9V6dubJktbmS3b2o3K6j9ZeaP8AFSp+NeXFc7Hoxu00qMVIqNFKz8G7RaJZe9A1Wk91p0chBJo0Z1fW56unkax/8Gn6N9J18PpHcaMf1Rk16s+mMY+NXSco8FKtdjuPNK9miyDu7qBpu80E92FGWUrq8WMoM5GdfpWK3a2I15cC3VghKuxcjIAQHHDI5tpXn9amk5RiaVkdjbLNw7oW0FIppDw1cYVLFMZGM4xnpXksbZpZI419p3RB14uwUfjRdvjSs6d3wt+bF5QPHoSXSCGLJqiOnVwDakHPhq6159obHaOSCAMWnkSFnQjToefBSM8ckhWQnl7VNG4xVKzG1th9xem0L6h3kaLJjGpZNBVgM+T+fSvVvJuu1mrl3LFLpoANOAyd0sqPnPUOBjoc8aaTlFdpXq2ZZmeaKFSFaSREDHiAXYLkjrjOa9O3LCCJlEE/fK2sEMoV0dGKkMoJABxqU55Gi7YylWTeTdpLaMskzSGOf6NMGQKBJ3feZQhjqXGRxwcivNtXZltBDCe8la5lginC6E7oK5IILatWQFb6vlTSTKVhKVnLzZltFbQyNJMbieNnRQkfdjTIyYZy2oeyTwBo+y7ZLOO4d5u+m78IqJGUBhcKNbMwYA6l5A9aaXcYOlZ212XbfQ/pMzz6mlkiRY0jZcoiMGYswIB1Y4Z5VgqEpSoNTFGzMFUFnYhVUcyzHCge8kCora3YjsnLT3bDgAIUPqcPIf8AAPnW36w26exls7WK3GCyrlz5ux1OfdqJx6YrM10np5cru7TSlKqFKUoNV9su7mtFvox4owFmA5lCfC32ScH0b0rTtdYTwq6sjAMjKVZTxBDDBBHkRXOG++7D2FwY+JhfLQt5rn2SfzlyAfgetZyn128eXxXamvwVzX6VcVl0Xiz3kjWyW3MuAbC7jZNB/lnmJiXVpzxUk88edV8Xkf8AB/cavyv0wS6MH2Po5XVnGPa4YzmsRSm0mMbG2PvvHD9EhLfkVhtlkkw+YmRpDMoGnLasQ508PD1qubq7YhtfpEzgvIVRIowzIWzMHc94FIXAROB55xVcpTacYtdltC0XaFy4l02sq3SpJokIHfodOUC6uBYjl0rx7Bntra9SRpRLDEGdHVJE7xxEdChWXUvjIGSMeHPKsBSm10zu8G0oZZreeDMZWGBXUl2ZHgJVfGQNZ0LGdQ/GvcdsW52u147lrcTtKrFWy2hCYRpxqHiVBxAxVUpTZxWTa217eWeznQFNCQrLGS7lO4lOk6yMvlNJyM8sc6yG+O88N3bhFYmRLydwSrDXCxfuWyRzCsq6TxGnlVLpTZxnT3bEvFhuYJmBKxzRuwHPSrqzYHU4Br0bfFoHBtpHlJLvI7IyLqZyyKqMNQwvAk8zyrE0oulw3v23azRuIHZ3nuvpTq0bJ3QEPd6CSfG2TnK8OFY7b232lhtrdJGMEdtCskZGFEqa9R4jJ4FeI4VgKZptJjIz+1NvM1pbW0cjd2kbCaPBCl++Z0OSOPAqcivWm1ozs1LcXbxOn0gvAI3ZZtbhkUuDpXlzOcaqqtKbOK1bM2tENnvbG7e3cyyuyLG7rKjxIgRipAAJVufnVVFQaUWTQa2L2P7t99Obt1/JQHCZ5NKRz+ypz72Xyqk7D2TLdzpbxDxueeOCKOLO3oB/oOtdLbD2VFawJBEMIi4z1J5sx9SSSffWsY555ammSpSlacSlKUClKUEVg97N3Yr63aF+De1HJjJRxyYenQjqCaztRQl05V2tsya2maCZNMi8COhHRlPVTzBryV0ZvtuhFtCLHBLhAe6lxy/QbzU/dzHrz9tTZs1tK0M6lJEPFTyI6Mp+sp6GsWad8M9vJSlQxrLomlQhyKnNUKUpUClRmgNBNRmhqaBSlKBUVNKCDU1DV+C+KqbfSv3FC7sqIpaR2CqgGSzE8AB50gid2VEUs7EKqqMsxPIAdTW8uzvcNbMCe4Aa7YcBzWFTzVT1Y9W+A6kpNs5ZcY9/Z7ueLCEs+GupADKw4hRzEanyHU9T6YxcaUro4W7TSlKIUpSgUpSgUpSgVXd7N1LbaEeiZcSLnu5lxqQn/Ep6qeB9DgixUoOY9591LmxfTOmYycRzLnQ/x+q36J4+/nWCYH3+ldYXlpHKjRyorxsMMjAEEeoNan3p7J2GXsGyOfcO3EeiSHn7m/arNxdsc5fbVCYqa+17ZywuY5kaNxzVgVPvweY9Rwr5Vl0iKmoNA1QTioNTX5NBIpU0oqM1NRmgoJpSv1GjMwVVLOxwqqCzMfIKOJNVHzc169i7EuLuQRW8Zd+BY8lQH6zNyUf9DNXrdXsquZiJLxjBFwPdjBlYeR6IPfk+grcWxtj29rGIreMIg6DmT5sx4sfU1qYuWWf4r25O4sFgNbYkumGGlI4KDzWMH2R5nmfdwFxpStOdu00pSiFKUoFKUoFKUoFKUoFKUoFKUoMdtXY9tcr3dxCki9NQyVPmrc1PqCDWu9tdkETZa0naM/0cnjX3Bx4h8dVbUpUs2stnpzdtfcDakBOq3Z0H1oiJB+yPF+7VZaNkYq6sjD6rAq3yPGut6+FzaRyDEiK6+TKrD5EVNNTO77cns1SorpS53H2U/tWcI/VQR/4MVj27MtkH/wAuR7prj/npxbnkjnyvzqFdBjsw2P1t2PvmuP8AR691tuDsmP2bOI/rhn/xk04l8jm5WyQo4seAA4n4AcTVg2ZuZtKfHd2sgU/Wcd2vv8eCR7ga6MstmwQjEMMcY8kREH7or100zfJWoNjdj7HDXc4A6xwjJ93eOPwX41sXYW7VnZj/AGeFUY8C5yzn3u2WI9M4rNUqyaYuVvtNKUqoUpSgUpSgUpSgUpSgUpSgUpSgUpSgUpSgVFTSgippSgUpSgUpSgUpSgippSgUpSgUpSgUpSgUpSgUpSg//9k="
+          alt=""
+        />
+        <div class="logoName">Aroma Bakery</div>
+      </div>
+      <div class="links">
+        <div><a href="#">About Us</a></div>
+        <div><a href="#"> Our Cakes</a></div>
+        <div><a href="#">Reviews</a></div>
+        <div><a href="#">Payment and delivery</a></div>
+        <div><a href="#">Contacts</a></div>
+      </div>
+      <div class="utilities">
+        <button><i class="ri-search-line"></i></button>
+      </div>
+    </nav>
+
+    <!-- Landing Banner -->
+    <div class="landing__banner">
+      <div class="content">
+        <p>Exclusive cakes made from natural products</p>
+        <h1>
+          Healthy cakes<br />
+          in Aroma
+        </h1>
+        <p class="p2">
+          Order now and get 15% discount <br />with promocode AROMA
+        </p>
+        <div><a class="order" href="">ORDER NOW</a></div>
+      </div>
+      <div class="banner__image">
+        <img
+          src="https://images.unsplash.com/photo-1627834377411-8da5f4f09de8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=701&q=80"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- About us part -->
+    <h1 class="about_title">_______ About Us ________</h1>
+    <div class="about_container">
+      <div class="about_text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quasi.
+        Dicta rem consectetur, praesentium nemo numquam ducimus quae tenetur
+        perferendis ullam soluta aperiam culpa vitae animi totam architecto
+        laudantium sint earum sequi? Odio veritatis doloribus necessitatibus?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor libero
+        quis non aliquid quam illo consequatur praesentium totam voluptatem id.
+        Aspernatur labore nam aliquam pariatur amet laborum error necessitatibus
+        perspiciatis? lorem Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit.
+      </div>
+      <div class="about_image">
+        <img src="./public/images/2ppa.png" alt="" />
+      </div>
+    </div>
+    <!-- menu div -->
+    <div class="menu_title">
+      <h1>________ Items ________</h1>
+    </div>
+    <div class="menu_container">
+      <div class="imagesContainer">
+        <div class="images">
+          <img
+            src="https://images.unsplash.com/photo-1498603645763-1005915e0abe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=701&q=80"
+            alt=""
+          />Coffee
+        </div>
+        <div class="images">
+          <img
+            src="https://images.unsplash.com/photo-1541544537156-7627a7a4aa1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+            alt=""
+          />Burgers
+        </div>
+        <div class="images">
+          <img
+            src="https://images.unsplash.com/photo-1553787499-6f9133860278?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+            alt=""
+          />Cold Items
+        </div>
+        <div class="images">
+          <img
+            src="https://images.unsplash.com/photo-1534766555764-ce878a5e3a2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />Pastries
+        </div>
+      </div>
+    </div>
+
+    <!-- Anda wala part😂😂 -->
+    <div class="anda_container">
+      <div class="andaTitle">
+        <h1>________ Anda ________</h1>
+      </div>
+      <div class="andaContent">
+        <div class="andaimg">
+          <img
+            src="https://images.unsplash.com/photo-1560055932-595dab110124?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+            alt=""
+          />
+        </div>
+        <div class="andatext">
+          <h3>Poached Egg</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
+            provident animi dignissimos quaerat aperiam <br />
+            quisquam!AMiOvPuDfrBtC <br />
+          </p>
+          <h3>Hawa Language</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Voluptatem, nihil.<br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ut.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing_container">
+      <div class="uppertext">
+        <h1>
+          We Offer You <br />
+          Different Tastes
+        </h1>
+        <p>
+          Are you food lover? If your answer is yes,then is restaurant for you.
+          We serve foods <br />
+          for reasonable prices. It's awesome, we know . Eating a variety of
+          foods and
+        </p>
+      </div>
+      <div class="priceTable">
+        <div class="left">
+          <div class="leftContents">
+            <a href="#">
+              <img
+                src="https://images.unsplash.com/photo-1492683962492-deef0ec456c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1156&q=80"
+                alt=""
+              />
+              Dessert</a
+            >
+          </div>
+          <div class="leftContents"><a href="#">Dishes</a></div>
+          <div class="leftContents"><a href="#">Drinks</a></div>
+          <div class="leftContents"><a href="#">Platter</a></div>
+          <div class="leftContents"><a href="#">Snacks</a></div>
+        </div>
+        <div class="right">
+          <div class="rightContents">
+            <img
+              src="https://images.unsplash.com/photo-1624589115993-90e2a31deaaa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+              alt=""
+            />
+          </div>
+          <div class="rightContents">
+            <img
+              src="https://images.unsplash.com/photo-1523813301608-f54a198f6b5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+              alt=""
+            />
+          </div>
+          <div class="rightContents">
+            <img
+              src="https://images.unsplash.com/photo-1595295333158-4742f28fbd85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+              alt=""
+            />
+          </div>
+          <div class="rightContents">
+            <img
+              src="https://images.unsplash.com/photo-1520201163981-8cc95007dd2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              alt=""
+            />
+          </div>
+          <div class="rightContents">
+            <img
+              src="https://images.unsplash.com/photo-1626776877184-84cadaef8d09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1208&q=80"
+              alt=""
+            />
+          </div>
+          <div class="rightContents">
+            <img
+              src="https://images.unsplash.com/photo-1627662234691-53b28f5a680c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- last part -->
+    <div class="lastContainer">
+      <div class="lastimg">
+        <img src="./public/images/7.png" alt="" />
+      </div>
+      <div class="lastright">
+        <div class="lasttext">
+          <h1>
+            We Deliver Anywhere <br />
+            In The Tri-State Area
+          </h1>
+          <p>
+            Eating a variety of foods and consuming less salt,sugars and <br />
+            saturated and industrially-produced trans-fats are essential for
+            <br />
+            healthy diet.
+          </p>
+        </div>
+        <div class="upbtn">
+          <div class="contactbtn">
+            <button><b> Contact Us</b></button>
+          </div>
+          <div class="viewbtn">
+            <button><b>View Menu</b></button>
+          </div>
+        </div>
+        <div class="fourbuttons1">
+          <button>
+            <i class="ri-shopping-cart-2-line"></i>
+            Online Order
+          </button>
+          <button>
+            <i class="ri-notification-3-fill"></i> Pre-Reservation
+          </button>
+        </div>
+        <div class="fourbuttons2">
+          <button><i class="ri-keynote-fill"></i>Super Chefs</button>
+          <button><i class="ri-24-hours-line"></i>24/7 Service</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
