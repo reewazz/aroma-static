@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -80,6 +81,7 @@ nav > .utilities button {
   font-size: 20px;
 }
 
+/* Review => This line should be on top. */
 .landing__banner {
   display: flex;
   margin: 50px 0px;
@@ -87,6 +89,7 @@ nav > .utilities button {
   background-size: cover; */
   height: 100%;
 }
+
 .landing__banner .content {
   font-size: 25px;
   width: 45vw;
@@ -120,7 +123,7 @@ nav > .utilities button {
 .about_title {
   text-align: center;
   font-size: 2.5em;
-  margin: 80px 0px 20px 0px;
+  margin: 80px 0 20px 0;
 }
 .about_container .about_image {
   /* padding: 0px 40px 0px 40px; */
@@ -187,10 +190,6 @@ nav > .utilities button {
 }
 
 /* pricing container css */
-.pricing_container {
-  /* height: 150vh; */
-}
-
 .pricing_container .uppertext {
   text-align: center;
   margin: 20px;
@@ -247,12 +246,6 @@ nav > .utilities button {
   border-radius: 10px;
   object-fit: cover;
 }
-/* .priceTable .right .rightContents {
-  float: left;
-  width: 30.33%;
-  display: flex;
-  padding: 4px;
-} */
 /* last part css */
 
 .lastimg img {
